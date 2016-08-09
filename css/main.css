@@ -10,10 +10,15 @@ a{
 	color: black;
 }
 button{
-	border-radius: 20%;
-	border: 1px solid gray;
+	border-radius: 10%;
+	border: 1px solid silver;
 	margin-top: 3%;
 	background-color: black;
+}
+a:hover{
+	background-color: silver;
+	color: black;
+	border-radius: 10%;
 }
 .bord-bottom{
 	border-bottom: 1px solid silver;
@@ -35,4 +40,21 @@ button{
 #boton-coral{
 	background-color: coral;
 	border: coral;
+}
+.p_chica{
+	font-size: 10px;
+}
+#twitter{
+	font-size: 70px;
+}
+#menu{
+	font-size: 20px;
+}
+.redes{
+	font-size: 35px;
+
+}
+.borde_red{
+	border: 1px dashed white;
+	/*border-radius: 100%;*/
 }
