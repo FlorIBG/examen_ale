@@ -1,0 +1,38 @@
+li{
+	display: inline-block;
+}
+
+.bg_negro{
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+button{
+	border-radius: 20%;
+	border: 1px solid gray;
+	margin-top: 3%;
+	background-color: black;
+}
+.bord-bottom{
+	border-bottom: 1px solid silver;
+	padding: 5% 0%;
+}
+.pd-3{
+	padding: 1.5% 0%;
+}
+.p_coral{
+	color: coral;
+}
+.left{
+	width: 50%;
+	margin-left: 50%;
+}
+.comillas{
+	font-size: 15px;
+}
+#boton-coral{
+	background-color: coral;
+	border: coral;
+}
