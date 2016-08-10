@@ -5,6 +5,9 @@ li{
 .bg_negro{
 	background-color: black;
 }
+.titulo{
+	font-size: 50px;
+}
 a{
 	text-decoration: none;
 	color: black;
@@ -24,9 +27,7 @@ a:hover{
 	border-bottom: 1px solid silver;
 	padding: 5% 0%;
 }
-.pd-3{
-	padding: 1.5% 0%;
-}
+
 .p_coral{
 	color: coral;
 }
@@ -41,20 +42,14 @@ a:hover{
 	background-color: coral;
 	border: coral;
 }
-.p_chica{
-	font-size: 10px;
+div.col-12>img{
+	width: 100%;
 }
-#twitter{
-	font-size: 70px;
+.menu{
+	width: 90px !important;
+	height: 30px !important;
+	border: none;
 }
-#menu{
-	font-size: 20px;
-}
-.redes{
-	font-size: 35px;
-
-}
-.borde_red{
-	border: 1px dashed white;
-	/*border-radius: 100%;*/
+button.menu:hover{
+	background-color: #717171;
 }

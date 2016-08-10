@@ -1,4 +1,7 @@
 /* Shortcuts */
+.gentleman{
+	font-family: 'Dosis', sans-serif;
+}
 
 @media (max-width: 700px) {
 	[class*="col-"] {
@@ -57,7 +60,7 @@ strong {
 	color: white;
 }
 .text-gray{
-	color: #888;
+	color: #888 !important;
 }
 
 .text-green{

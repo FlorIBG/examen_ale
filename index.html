@@ -6,7 +6,7 @@
   <title>The Gentleman</title>
 
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+  <link href='https://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="css/grid-system.css">
   <link rel="stylesheet" href="css/utilities.css">
@@ -16,23 +16,48 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css"> 
 </head>
-<body>
+<body class="bg_negro">
 	<div class="container">
     <header>
       <div class="bg_negro">
         <div class="row">
-          <div class="col-6">
-            <a href=""><h1 class="pd-5 text-white">The Gentleman</h1></a>
+          <div class="col-4">
+            <a href=""><p class="pd-5 text-white titulo"><i class="gentleman">The </i><b>Gentleman</b></p></a>
           </div>
-          <div class="col-6">
-            <nav> <!--menu -->
-              <ul class="pd-5">
-                <li class="pd-2"><a class="text-white" href="">Home</a></li>
-                <li class="pd-2"><a class="text-white" href="">Portfolio</a></li>
-                <li class="pd-2"><a class="text-white" href="">Services</a></li>
-                <li class="pd-2"><a class="text-white" href="">Blog</a></li>
-                <li class="pd-2"><a class="text-white" href="">Features</a></li>
-                <li><a class="text-white" href="">Contact</a></li>
+          <div class="col-8">
+                                    <!-- Menu -->
+            <nav>   
+              <ul class="pd-2">
+                <li class="pd-2">
+                  <a class="text-white" href=""> 
+                    <button class="text-white menu">HOME</button>
+                  </a>
+                </li>
+                <li class="pd-2">
+                  <a class="text-white" href="">
+                    <button class="text-white menu">PORTFOLIO</button>
+                  </a>
+                </li>
+                <li class="pd-2">
+                  <a class="text-white" href="">
+                    <button class="text-white menu">SERVICES</button>
+                  </a>
+                </li>
+                <li class="pd-2">
+                  <a class="text-white" href="">
+                    <button class="text-white menu">BLOG</button>
+                  </a>
+                </li>
+                <li class="pd-2" id="">
+                  <a class="text-white" href="">
+                    <button class="text-white menu">FEATURES</button>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white" href="">
+                    <button class="text-white menu">CONTACT</button>
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -40,18 +65,211 @@
       </div>
     </header>
     <section>
-      <div class="bg-gray bord-bottom">
-        <div class="row">
-          <div class="col-8"> <!--imagen-->
-            <div class="pd-2">
-              <img src="img/header.png" alt="header">
+      <div class="pl-5 pr-5">
+        <div class="bg-gray bord-bottom">
+          <div class="row">
+            <div class="col-8"> <!--imagen-->
+              <div class="pd-2">
+                <img src="img/header.png" alt="header">
+              </div>
+            </div>
+            <div class="col-4"> <!--nota-->
+              <div class="pd-5">
+                <h3>The gentleman word press themes has attitude</h3><br>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates eaque iste, adipisci dolorem, quam itaque vero temporibus reprehenderit consequatur qui ex sequi fugiat illo impedit corrupti voluptate doloremque eos.</span><span>Fugiat enim dignissimos quidem magni provident iure labore eum expedita impedit maxime asperiores error iusto laboriosam id molestias eveniet, rerum rem itaque possimus, culpa et cum non quaerat. Vitae, totam.</span></p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ad sunt illum voluptatibus quis expedita quos possimus ratione consectetur enim at animi soluta, tenetur. Officiis nihil aut necessitatibus ea. Maxime.</p>
+                <button class="pd-2 text-white">Read More</button>
+              </div>
             </div>
           </div>
-          <div class="col-4"> <!--nota-->
-            <div class="pd-5">
-              <h3>The gentleman word press themes has attitude</h3><br>
-              <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates eaque iste, adipisci dolorem, quam itaque vero temporibus reprehenderit consequatur qui ex sequi fugiat illo impedit corrupti voluptate doloremque eos.</span><span>Fugiat enim dignissimos quidem magni provident iure labore eum expedita impedit maxime asperiores error iusto laboriosam id molestias eveniet, rerum rem itaque possimus, culpa et cum non quaerat. Vitae, totam.</span></p><br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ad sunt illum voluptatibus quis expedita quos possimus ratione consectetur enim at animi soluta, tenetur. Officiis nihil aut necessitatibus ea. Maxime.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="pl-5 pr-5">
+        <div class="bg-gray bord-bottom">
+          <div class="row pl-5">
+            <div class="col-9"> <!--SUBTITULO-->
+              <h3>LATEST PROJECTS</h3>
+            </div>
+            <div class="col-3">
+              <p class="text-right text-gray" id="menu"> <!-- ?? -->
+                <a href=""><i class="ion-android-apps"></i></a>
+                <a href=""><i class="ion-android-apps"></i></a>
+                <a href=""><i class="ion-android-apps"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="row pl-5">
+            <div class="col-12">
+              <ul class="pb-5 pd-2">
+                <li class="pr-5"><a href="">Recent Work</a></li>
+                <li class="pr-5"><a href="">Popular Work</a></li>
+                <li><a href="">All Work</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Row general -->
+          <div class="row pl-5 pb-5"> 
+            <a href="">
+              <div class="col-6">
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <img src="img/main-pic.png" alt="chica">
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-8">
+                    <h4>Capuccino Catcher Urna Placerat Ornare </h4>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-gray">
+                      <i class="ion-eye">1508 </i>
+                      <i class="ion-ios-heart">175</i>
+                    </p> <!--Iconos de ionics -->
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="img/main-pic.png" alt="chica">
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-8">
+                    <h4>Capuccino Catcher Urna Placerat Ornare </h4>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-gray">
+                      <i class="ion-eye">1508 </i>
+                      <i class="ion-ios-heart">175</i>
+                    </p> <!--Iconos de ionics -->
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--Row general -->
+          <div class="row pl-5 pb-5"> 
+            <a href="">
+              <div class="col-6">
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <img src="img/main-pic.png" alt="chica">
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-8">
+                    <h4>Capuccino Catcher Urna Placerat Ornare </h4>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-gray">
+                      <i class="ion-eye">1508 </i>
+                      <i class="ion-ios-heart">175</i>
+                    </p> <!--Iconos de ionics -->
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="col-6">
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <img src="img/main-pic.png" alt="chica">
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-8">
+                    <h4>Capuccino Catcher Urna Placerat Ornare </h4>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-gray">
+                      <i class="ion-eye">1508 </i>
+                      <i class="ion-ios-heart">175</i>
+                    </p> <!--Iconos de ionics -->
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--Row general -->
+          <div class="row pl-5 pb-5"> 
+            <a href="">
+              <div class="col-6">
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <img src="img/main-pic.png" alt="chica">
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-8">
+                    <h4>Capuccino Catcher Urna Placerat Ornare </h4>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-gray">
+                      <i class="ion-eye">1508 </i>
+                      <i class="ion-ios-heart">175</i>
+                    </p> <!--Iconos de ionics -->
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="col-6">
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <img src="img/main-pic.png" alt="chica">
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-8">
+                    <h4>Capuccino Catcher Urna Placerat Ornare </h4>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-gray">
+                      <i class="ion-eye">1508 </i>
+                      <i class="ion-ios-heart">175</i>
+                    </p> <!--Iconos de ionics -->
+                  </div>
+                </div>
+                <div class="row pd-3">
+                  <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row"> <!--Boton -->
+            <div class="col-12 text-center">
               <button class="pd-2 text-white">Read More</button>
             </div>
           </div>
@@ -59,213 +277,26 @@
       </div>
     </section>
     <section>
-      <div class="bg-gray bord-bottom">
-        <div class="row pl-5">
-          <div class="col-9"> <!--SUBTITULO-->
-            <h3>LATEST PROJECTS</h3>
-          </div>
-          <div class="col-3">
-            <p class="text-right text-gray" id="menu"> <!-- ?? -->
-              <i class="ion-android-apps"></i>
-              <i class="ion-android-apps"></i>
-              <i class="ion-android-apps"></i>
-            </p>
-          </div>
-        </div>
-        <div class="row pl-5">
-          <div class="col-12">
-            <ul class="pb-5 pd-2">
-              <li class="pr-5"><a href="">Recent Work</a></li>
-              <li class="pr-5"><a href="">Popular Work</a></li>
-              <li><a href="">All Work</a></li>
-            </ul>
-          </div>
-        </div>
-        <!--Row general -->
-        <div class="row pl-5 pb-5"> 
-          <a href="">
-            <div class="col-6">
-              <div class="row pd-3">
+      <div class="pl-5 pr-5">
+        <div class="bg-gray bord-bottom">
+          <div class="row">
+            <div class="col-3">
+              <div class="row">
                 <div class="col-12">
-                  <img src="img/main-pic.png" alt="chica">
+                  <p class="text-center text-gray" id="twitter">
+                    <i class="ion-social-twitter"></i>
+                  </p>
                 </div>
               </div>
-              <div class="row pd-3">
-                <div class="col-8">
-                  <h4>Capuccino Catcher Urna Placerat Ornare </h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-gray">
-                    <i class="ion-eye">1508 </i>
-                    <i class="ion-ios-heart">175</i>
-                  </p> <!--Iconos de ionics -->
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
+              <div class="row"> 
+                <div class="col-12 text-center">
+                  <button class="pd-2 text-white">Follow</button>
                 </div>
               </div>
             </div>
-          </a>
-          <a href="">
-            <div class="col-6">
-              <div class="row pd-3">
-                <div class="col-12">
-                  <img src="img/main-pic.png" alt="chica">
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-8">
-                  <h4>Capuccino Catcher Urna Placerat Ornare </h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-gray">
-                    <i class="ion-eye">1508 </i>
-                    <i class="ion-ios-heart">175</i>
-                  </p> <!--Iconos de ionics -->
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
-                </div>
-              </div>
+            <div class="col-9">
+              <h2>My Latest WordPress Theme, The Gentleman, just lunched! This Theme has attitude. Check it out at Theme Forest: <a href=""><i class="p_coral">http://t.co/asdasda</i></a> - 1 week ago</h2>
             </div>
-          </a>
-        </div>
-        <!--Row general -->
-        <div class="row pl-5 pb-5"> 
-          <a href="">
-            <div class="col-6">
-              <div class="row pd-3">
-                <div class="col-12">
-                  <img src="img/main-pic.png" alt="chica">
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-8">
-                  <h4>Capuccino Catcher Urna Placerat Ornare </h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-gray">
-                    <i class="ion-eye">1508 </i>
-                    <i class="ion-ios-heart">175</i>
-                  </p> <!--Iconos de ionics -->
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="col-6">
-              <div class="row pd-3">
-                <div class="col-12">
-                  <img src="img/main-pic.png" alt="chica">
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-8">
-                  <h4>Capuccino Catcher Urna Placerat Ornare </h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-gray">
-                    <i class="ion-eye">1508 </i>
-                    <i class="ion-ios-heart">175</i>
-                  </p> <!--Iconos de ionics -->
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!--Row general -->
-        <div class="row pl-5 pb-5"> 
-          <a href="">
-            <div class="col-6">
-              <div class="row pd-3">
-                <div class="col-12">
-                  <img src="img/main-pic.png" alt="chica">
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-8">
-                  <h4>Capuccino Catcher Urna Placerat Ornare </h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-gray">
-                    <i class="ion-eye">1508 </i>
-                    <i class="ion-ios-heart">175</i>
-                  </p> <!--Iconos de ionics -->
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="">
-            <div class="col-6">
-              <div class="row pd-3">
-                <div class="col-12">
-                  <img src="img/main-pic.png" alt="chica">
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-8">
-                  <h4>Capuccino Catcher Urna Placerat Ornare </h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-gray">
-                    <i class="ion-eye">1508 </i>
-                    <i class="ion-ios-heart">175</i>
-                  </p> <!--Iconos de ionics -->
-                </div>
-              </div>
-              <div class="row pd-3">
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, esse. Quis exercitationem assumenda, beatae ad quia quasi delectus porro facere.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="row"> <!--Boton -->
-          <div class="col-12 text-center">
-            <button class="pd-2 text-white">Read More</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="bg-gray bord-bottom">
-        <div class="row">
-          <div class="col-3">
-            <div class="row">
-              <div class="col-12">
-                <p class="text-center text-gray" id="twitter">
-                  <i class="ion-social-twitter"></i>
-                </p>
-              </div>
-            </div>
-            <div class="row"> 
-              <div class="col-12 text-center">
-                <button class="pd-2 text-white">Follow</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-9">
-            <h2>My Latest WordPress Theme, The Gentleman, just lunched! This Theme has attitude. Check it out at Theme Forest: <a href=""><i class="p_coral">http://t.co/asdasda</i></a> - 1 week ago</h2>
           </div>
         </div>
       </div>
@@ -276,12 +307,12 @@
           <div class="col-4 text-right">
             <div>
               <h2 class="text-gray">The Gentleman</h2>
-              <p class="text-gray redes pd-2">  <!--Iconos -->
-              <i class="borde_red ion-social-twitter"></i>
-              <i class="borde_red ion-social-facebook"></i>
-              <i class="borde_red ion-social-googleplus-outline"></i>
-              <i class="borde_red ion-social-dribbble-outline"></i>
-              <i class="borde_red ion-social-pinterest"></i>
+              <p class="redes pd-2">  <!--Iconos -->
+              <a class="text-gray" href="https://twitter.com/?lang=es" target="_blank"><i class="borde_red ion-social-twitter"></i></a>
+              <a class="text-gray" href="https://es-la.facebook.com/" target="_blank"><i class="borde_red ion-social-facebook"></i></a>
+              <a class="text-gray" href="https://plus.google.com/" target="_blank"><i class="borde_red ion-social-googleplus-outline"></i></a>
+              <a class="text-gray" href="https://dribbble.com" target="_blank"><i class="borde_red ion-social-dribbble-outline"></i></a>
+              <a class="text-gray" href="https://es.pinterest.com/" target="_blank"><i class="borde_red ion-social-pinterest"></i></a>
             </p>
             </div>
           </div>
